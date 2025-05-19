@@ -1,7 +1,7 @@
-replicaCount: 1
+replicaCount: 2
 
 image:
-  repository: my-thesis-app
+  repository: if22b041/thesis-demo
   tag: latest
   pullPolicy: IfNotPresent
 
