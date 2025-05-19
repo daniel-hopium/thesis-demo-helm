@@ -1,4 +1,7 @@
-replicaCount: 5
+configmap:
+  name: myhelmapp-configmap-v1
+  data:
+    CUSTOM_HEADER: 'This app was deployed with helm!'
 
 image:
   repository: if22b041/thesis-demo
