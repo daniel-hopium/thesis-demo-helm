@@ -1,5 +1,5 @@
-replicaCount: 7
+replicaCount: 3
 
 configmap:
   data:
-    CUSTOM_HEADER: 'This is on the DEV environment!'
+    message: This is a message from a Spring App deployed in PROD!

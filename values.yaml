@@ -1,12 +1,12 @@
 configmap:
   name: myhelmapp-configmap-v2
   data:
-    CUSTOM_HEADER: 'This app was deployed with helm!'
+    message: This is a message from a Spring App configured via ConfigMap!
 
 image:
   repository: if22b041/thesis-demo
   tag: latest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   type: ClusterIP
